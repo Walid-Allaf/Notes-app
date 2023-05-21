@@ -10,7 +10,7 @@ if (window.localStorage.getItem("notes")) {
 
 newBtn.addEventListener("click", () => {
   window.localStorage.removeItem("editNote");
-  open("../pages/newNote.html", "_self");
+  open("../newNote.html", "_self");
 });
 
 addEventToNotes();
