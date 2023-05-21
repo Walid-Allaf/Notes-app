@@ -106,7 +106,7 @@ function addEventToNotes() {
     el.addEventListener("click", () => {
       window.localStorage.setItem("editNote", JSON.stringify(el.id));
       search.value = "";
-      open("../pages/newNote.html", "_self");
+      open("../newNote.html", "_self");
     });
   });
 }
